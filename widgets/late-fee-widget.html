@@ -412,5 +412,13 @@ function toggleMobileMenu() { document.getElementById('mobileMenu').classList.to
 const backToTop = document.getElementById('backToTop');
 if (backToTop) { window.addEventListener('scroll', () => { backToTop.classList.toggle('visible', window.scrollY > 400); }); }
 </script>
+<div class="learn-links" style="margin: 24px 0; padding: 20px; background: var(--bg-elevated); border-radius: 12px; border: 1px solid var(--border);">
+  <h3 style="font-size: 16px; font-weight: 700; margin-bottom: 12px; color: var(--text);">📚 Learn More</h3>
+  <ul style="list-style: none; padding: 0; margin: 0; display: grid; gap: 8px;">
+    <li><a href="https://pingpaid.online/learn/guides/consultants-late-payments" style="color: var(--accent); text-decoration: none; font-weight: 500;">Learn more about managing late payments as a consultant</a></li>
+    <li><a href="https://pingpaid.online/learn/guides/freelance-writers-late-payments" style="color: var(--accent); text-decoration: none; font-weight: 500;">See how handling late payments as a writer works</a></li>
+    <li><a href="https://pingpaid.online/learn/comparisons" style="color: var(--accent); text-decoration: none; font-weight: 500;">Read our guide on invoice tool comparisons</a></li>
+  </ul>
+</div>
 </body>
 </html>
